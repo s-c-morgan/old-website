@@ -25,5 +25,8 @@ a{
   color: black;
 }
 a:hover{
-  color: grey
+  color: grey;
+}
+.tibar{
+  color: purple;
 }
