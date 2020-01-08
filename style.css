@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Gelasio);
-body{background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,233,233,1) 100%);
+body{
+  padding: 20px 40px;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,233,233,1) 100%);
 }
 #profpic{
-  width: 200px;
-  height: 200px;
+  width: auto/4;
+  height: auto/4;
 }
 h1{
   font-family: Gelasio;
