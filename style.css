@@ -5,8 +5,8 @@ body{
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,233,233,1) 100%);
 }
 #profpic{
-  width: auto/4;
-  height: auto/4;
+  width: auto;
+  height: auto;
 }
 h1{
   font-family: Gelasio;
