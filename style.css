@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Gelasio);
+@import url('https://fonts.googleapis.com/css?family=Gelasio:400,400i|Roboto+Condensed&display=swap');
 body{
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,233,233,1) 100%);
@@ -22,9 +22,10 @@ a:hover{
 }
 .header{
   text-transform: uppercase;
-  padding: 30px 10px;
   color: white;
   text-shadow: 2px 3px black;
+  font-family: "Roboto Condensed";
+  font-size: 40px;
 }
 .button{
   width: 40px;
@@ -37,7 +38,7 @@ a:hover{
   padding: 15px 30px;
   margin: 15px 30px;
   font-size: 20px;
-  font-family: Gelasio;
+  font-family: 'Gelasio';
   align-items: center;
 }
 .content{
@@ -45,7 +46,8 @@ a:hover{
   opacity: 75%;
   padding: 5px 10px;
   border-radius: 25px;
-  font-family: Gelasio;
+  font-family: 'Gelasio';
+  font-size: 18px;
 }
 .bitar{
   background: black;
@@ -54,22 +56,30 @@ a:hover{
 }
 .topimg{
   background-image: url('topimg.jpg');
-  padding: 10px 0px;
   width: 100%;
   align-items: center;
+  padding: 30px 10px;
 }
 .imgbar{
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(224,221,221,1) 76%, rgba(214,210,210,1) 100%);
   height: auto;
   width: auto
-  padding: 50px 0px 0px 0px;
+  padding: 60px 0px 0px 0px;
 }
 .contab{
   width: 200px;
 }
 #collab{
   font-size: 25px;
-  width: 70%
-  font-family: Gelasio;
+  width: auto;
+  height: auto;
+  font-family: 'Gelasio';
+}
+#subheader{
+  width: auto;
+  height: auto;
+  text-shadow: none;
+  text-transform: capitalize;
+  font-size: 20px;
 }
