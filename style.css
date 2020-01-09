@@ -7,7 +7,7 @@ body{
 #profpic{
   width: 330px;
   height: 320px;
-  margin: auto;
+  margin: 25px 10px;
 }
 h1{
   font-family: Gelasio;
@@ -34,4 +34,13 @@ a:hover{
   background-color: black;
   padding: 15px 100px;
   margin: 15px 10px;
+  font-size: 20px;
+  font-family: Gelasio;
+}
+p,
+ul{
+  background: rgb(155,155,155);
+  opacity: 45;
+  font-family: cursive;
+
 }
