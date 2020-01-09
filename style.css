@@ -68,3 +68,8 @@ a:hover{
 .contab{
   width: 200px;
 }
+#collab{
+  font-size: 25px;
+  width: 70%
+  font-family: Gelasio;
+}
