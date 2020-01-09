@@ -1,18 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Gelasio);
 body{
-  padding: 20px 40px;
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,233,233,1) 100%);
-}
-#profpic{
-  width: 330px;
-  height: 320px;
-  margin: 25px 10px;
 }
 h1{
   font-family: Gelasio;
   color: 'dark grey';
-
+}
+a{
+  color: black;
+}
+a:hover{
+  color: grey;
+}
+#profpic{
+  width: 330px;
+  height: 320px;
 }
 .header{
   text-transform: uppercase;
@@ -21,12 +24,6 @@ h1{
 .button{
   width: 30px;
   height: 30px;
-}
-a{
-  color: black;
-}
-a:hover{
-  color: grey;
 }
 .tibar{
   color: white;
@@ -39,8 +36,28 @@ a:hover{
 }
 .content{
   background: rgb(155,155,155);
-  opacity: 50;
+  opacity: 75%;
+  padding: 5px 10px;
+  border-radius: 25px;
 }
 .bitar{
-  background: black
+  background: black;
+  height:auto;
+  width:auto;
+}
+.topimg{
+  background-image: url('topimg.jpg');
+  padding: 10px 0px;
+  width: 100%;
+  align-items: center;
+}
+.imgbar{
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(224,221,221,1) 76%, rgba(214,210,210,1) 100%);
+  height: auto;
+  width: auto
+  padding: 50px 0px 0px 0px;
+}
+.contab{
+  width: 100px;
 }
