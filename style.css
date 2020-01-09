@@ -31,16 +31,16 @@ a:hover{
 .tibar{
   color: white;
   text-decoration:none;
-  background-color: black;
-  padding: 15px 100px;
+  padding: 15px 10px;
   margin: 15px 10px;
   font-size: 20px;
   font-family: Gelasio;
+  align-items: center;
 }
-p,
-ul{
+.content{
   background: rgb(155,155,155);
-  opacity: 45;
-  font-family: cursive;
-
+  opacity: 50;
+}
+.bitar{
+  background: black
 }
