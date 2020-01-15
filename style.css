@@ -93,7 +93,7 @@ a:hover{
   height: auto;
   float: left;
 }
-#aboutme{
+.cent{
   width: 80%;
   margin: auto;
 }
@@ -102,6 +102,9 @@ a:hover{
   width: 300px;
   height: auto;
 }
-#Bio{
+.tab{
   padding-left: 30px;
+}
+.gelasio{
+  font-family: 'Gelasio';
 }
