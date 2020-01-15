@@ -24,19 +24,32 @@
     <h3 class="tab gelasio">Transportation and Urban Planning</h3>
 
       <div class="cent content">
-        <p><a href="#">Vizualizing NYC Traffic Data in R</a></p>
+        <p><a href="https://github.com/s-c-morgan/SocialStatProjs/blob/NYCopendataAPIs/NYC%20Traffic%20Summary.R">Vizualizing NYC Traffic Data in R</a></p>
         <p>Description: One of my first projects using APIs and JSON data, this script pulls data from the New York City transportation department to create a vizualation marking trends in traffic speeds over the last hour, as well as a general summary showing average speeds by borough. This data required a small amount of cleaning, as some traffic sensors were disconnected from the system and subsequently removed by filtering out their error code. Vizualations were completed using the ggplot2 package.</p>
-        <p>Conclusion: As expected, the vizualization typically shows less dense boroughs like Staten Island enjoying faster traffic speeds, while denser boroughs like Manhattan typically has the lowest average traffic speed. An important skew to the data is that sensors are only installed on major roadways, meaning a larger sample size for boroughs with larger traffic arteries.
-        Updates: Work is currently being done to integrate sensor coordinates provided by the API into a GIS-style vizualiation in R.</p>
+        <p>Conclusion: As expected, the vizualization typically shows less dense boroughs like Staten Island enjoying faster traffic speeds, while denser boroughs like Manhattan typically has the lowest average traffic speed. An important skew to the data is that sensors are only installed on major roadways, meaning a larger sample size for boroughs with larger traffic arteries.</p>
+        <p>Updates: Work is currently being done to integrate sensor coordinates provided by the API into a GIS-style vizualiation in R. If this doesn't work out, as I've had trouble with geospatial data in R before, I might consider using QGIS or Tableau.</p>
+        <img src="../Rplot01.png" id='projimg'>
       </div>
     <h3 class="tab gelasio">Crime and Justice</h3>
       <div class="cent content">
         <p><a href="https://public.tableau.com/profile/s.c.morgan#!/vizhome/NYPD_15791043544160/InteractiveZipcodeNoiseComplaintPicker">Data Exploration of 311 Calls in Tableau</a>
         <p>Description: Given the relative cleanliness of this data as provided by the NYC Open Data Project, I jumped right in to analysis work. <a href="https://gothamist.com/news/new-harlem-resident-declares-war-on-jingle-happy-mister-softee-man"> Recent incidents</a> have shown increased tensions between gentrifying and existing populations regarding noise levels. I wanted to see if this trend had any true reflections in 311 call data regarding noise complaints. Users can explore the data themselves through the project's central dashboard, using a filtering mechanism that links Tableau's handy native geospatial data handler to charts displaying trends in noise complaints over time. This project also features some relatively interesting charts that I used to explore the different types of charts available in Tableau.</p>
+        <p>Conclusion: Technically, noise complaints have increased in recent years. However, this increase is no greater than the general increase in 311 calls in that same period. Is this a signifier of increased gentrification? I believe that our sample size is still a bit too small and noisy for such a conclusion to be drawn yet.</p>
+        <p>Updates: I'm working on refining about my conclusions about noise complaint increases in gentrifying zip codes. I am also working on formatting and adding sheets to the project's main dashboard to further illustrate the increase in 311 calls across the board.</p>
+      </div>
+    <h3 class='tab gelasio'>Politics and Political Finance</h3>
+      <div class="cent content">
+        <p><b>Correlations between campaign financing from the fossil fuel industry and political support for Green Energy legislation</b></p>
+        <p>Description: Coming Soon </p>
+        <p>Conclusion: Coming Soon</p>
+        <p>Updates: Coming Soon</p>
+      </div>
+    <h3 class='tab gelasio'>Miscellaneous</h3>
+      <div class="cent content">
+        <p><b>Coming soon</b></p>
+        <p>Description:</p>
         <p>Conclusion:</p>
         <p>Updates:</p>
       </div>
-    <h3 class='tab gelasio'>Politics and Political Finance</h3>
-    <h3 class='tab gelasio'>Miscellaneous</h3>
   </body>
 </html>
