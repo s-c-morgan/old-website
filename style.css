@@ -22,7 +22,6 @@ a:hover{
   border-width: 2px;
 }
 .header{
-  text-transform: uppercase;
   color: white;
   text-shadow: 2px 3px black;
   font-family: "Gelasio";
@@ -43,7 +42,7 @@ a:hover{
   align-items: center;
 }
 .content{
-  background: rgb(192,192,192);
+  background: rgb(180,180,180);
   padding: 5px 10px;
   border-radius: 25px;
   font-family: 'Gelasio';
@@ -78,6 +77,8 @@ a:hover{
   width: 75%;
   height: auto;
   font-family: 'Gelasio';
+  margin: auto;
+  text-align: center;
 }
 #subheader{
   width: auto;
@@ -113,4 +114,14 @@ a:hover{
   height:auto;
   margin-left: auto;
   margin-right: auto;
+}
+.ligrey{
+  background: rgb(187,184,184);
+  background: linear-gradient(0deg, rgba(187,184,184,1) 22%, rgba(221,215,215,1) 58%, rgba(190,189,189,1) 100%);
+}
+.blob{
+  padding: 15px 30px;
+}
+.upper{
+  text-transform: uppercase;
 }
