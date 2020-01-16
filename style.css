@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Gelasio:400,400i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i&display=swap');
 body{
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(235,233,233,1) 100%);
+  background-image: url('bluline.png');
 }
 h1{
   font-family: Gelasio;
@@ -31,6 +30,7 @@ a:hover{
   width: 40px;
   height: 40px;
   margin: 0px 10px;
+  background-color: white;
 }
 .tibar{
   color: white;
@@ -63,8 +63,6 @@ a:hover{
   padding-left: 30px;
 }
 .imgbar{
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(224,221,221,1) 76%, rgba(214,210,210,1) 100%);
   height: auto;
   width: auto
   padding: 60px 0px 0px 0px;
